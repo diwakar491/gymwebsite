@@ -1,0 +1,9 @@
+1) SignUp in Netlifly --- Email , Password
+2) Login to Netlifly
+3) Click on the Sites
+
+
+My Website Link
+ -------------------------------------------------
+|https://euphonious-starlight-f91a59.netlify.app/ |
+ -------------------------------------------------

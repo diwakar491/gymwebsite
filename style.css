@@ -1,0 +1,383 @@
+*{
+    margin: 0px;
+}
+
+.logo img{
+    width: 150px;
+}
+
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: beige;
+}
+
+.nav-links{
+    display: flex;
+    list-style: none;
+    width: 400px;
+    justify-content: space-between;
+    margin-right: 20px;
+}
+
+.nav-links a{
+    text-decoration: none;
+    font-size: 20px;
+    font-family: sans-serif;
+    font-weight: bold;
+    color: grey;
+}
+
+.header{
+    background-image: url(images/Cardio.jpg);
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    justify-content: right;
+    align-items: center;
+    font-family:   Helvetica, sans-serif;
+}
+
+.header h1{
+    font-size: 41px;
+    text-transform: uppercase;
+    color: goldenrod;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; 
+    letter-spacing: 10px;
+    text-align: center;
+    margin: auto;
+}
+
+.menu{
+    display: flex;
+    justify-content: space-around;
+    background-color: rgb(78, 66, 84);
+    height: 80vh;
+    align-items: center;
+}
+
+.menu img{
+    margin-top: 15px;
+    width: 300px;
+    border-radius: 10px;
+    padding-bottom: 20px;
+}
+
+.menu-headings{
+    font-size: 40px;
+    text-align: center;
+    padding-top: 30px;
+    padding-bottom: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-shadow: 5px 5px 6px grey;
+}
+
+.menu .item1,.item2,.item3{
+    width: 300px;
+}
+
+.menu p{
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 25px;
+    text-align: justify;
+    color: white;
+}
+
+.menu h1{
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    color: white;
+}
+
+
+.footer{
+    background-color: grey;
+    height: 40vh;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: x-small;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.icons i{
+    font-size: 30px;
+}
+
+.icons{
+    width: 200px;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
+}
+
+/*this is ourteam page code*/
+
+.ot-header{
+    background-image: url(./images/Strength.jpg);
+    height: 70vh;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: left;
+}
+
+.ot-header h1{
+    color : white;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 60px;
+    margin-left: 40px;
+    
+}
+
+.gallery{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-column-gap: -50px;
+    grid-row-gap: 50px;
+    background-color: bisque;
+    width: 85%;
+    margin: auto;
+    padding-top: 10px;
+    padding-left: 10px;
+    padding-left: 80px;
+}
+
+.gallery img{
+    width: 300px;
+    border-radius: 10px;
+    transition-property:  transform;
+    transition-duration: 1s;
+}
+
+.gal-heading{
+    text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 40px;
+    color: orangered;
+    padding: 10px;
+}
+
+.gallery img:hover{
+    transform: scale(1.2);
+}
+
+/* Services Page Code */
+
+.services-header{
+    background-image: url(./images/Strength.jpg);
+    height: 70vh;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.services-header h1{
+    color : white;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 60px;
+    margin-left: 40px;
+    background-color: rgb(67, 67, 67, 0.5);
+}
+
+.what-we-do{
+background-color: black;
+color: white;
+}
+
+.wwd-item img{
+    width: 600px;
+    border-radius:  20px;
+
+}
+
+.wwd-item{
+    display: flex;
+    width: 80%;
+    margin: auto;
+    justify-content: space-around;
+}
+
+.center{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    background-color: rgb(225, 127, 0);
+    width: 50%;
+    border: 3px solid white;
+}
+
+.what-we-do h1{
+    font-family: sans-serif;
+    font-weight: thin;
+    text-align: center;
+    
+}
+.head{
+    padding: 40px;
+}
+
+/*This is about us file code*/
+.about{
+    background-color: goldenrod;
+    height: 87vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.about p{
+    text-align: center;
+    font-family: monospace;
+    font-size: x-large;
+}
+.about h1{
+    font-family: monospace;
+    text-decoration: underline 5px;
+    padding-bottom: 10px;
+}
+
+.joinus-btn{
+    background-color: black;
+    color: white;
+    font-family: monospace;
+    text-decoration: none;
+    padding: 10px;
+    margin-top: 10px;
+}
+
+/* Media Queries */
+
+/* Mobile Devices */
+@media(max-width:576px) {
+    /* home page code */
+
+    .logo img{
+        width: 120px;
+    }
+    
+    .navbar{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        background-color: beige;
+    }
+    
+    .nav-links{
+        display: flex;
+        list-style: none;
+        width: 290px;
+        justify-content: space-between;
+        margin-right: 20px;
+    }
+    
+    .nav-links a{
+        text-decoration: none;
+        font-size: 14.5px;
+        font-family: sans-serif;
+        font-weight: bold;
+        color: grey;
+    }
+
+    .header {
+        background-image: url(images/Cardio.jpg);
+        height: 100vh;
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-family:   Helvetica, sans-serif;
+    }
+    
+    .header h1{
+        font-family: sans-serif;
+        font-size: 41px;
+        text-transform: uppercase;
+        color: orangered;
+    }
+
+    .menu{
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        background-color: rgb(78, 66, 84);
+        height: 170vh;
+        align-items: center;
+        margin-top: 50px;
+    }
+    .gallery{
+        display: grid;
+        grid-template-columns: auto;
+        background-color: bisque;
+        width: 85%;
+            margin: auto;
+        padding-top: 10px;
+        padding-left: 10px;
+
+    }
+    .gallery img{
+        display: block;
+        margin: auto;
+    }
+    .services-header h1{
+        color : white;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        font-size: 50px;
+        margin-left: 40px;
+        background-color: rgb(67, 67, 67, 0.5);
+        text-align: center;
+    }
+    .wwd-item img{
+        width: 300px;
+        border-radius:  20px;
+    
+    }
+    
+    .wwd-item{
+        display: flex;
+        width: 80%;
+        margin: auto;
+        justify-content: space-around;
+    }
+    .what-we-do h1{
+        font-family: sans-serif;
+        font-weight: thin;
+        text-align: center;
+    }
+
+/* Small Devices */
+@media(min-width:577px) and (max-width:768px){
+
+}
+
+/* Tab */
+@media(min-width:769px) and (max-width:991px){
+
+}
+
+/* Desktop */
+@media(min-width:992px) and (max-width:1199px){
+
+}
+
+/* Large Desktops */
+@media(min-width:1401px){
+
+}
+    
+}
